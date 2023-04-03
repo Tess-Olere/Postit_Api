@@ -15,7 +15,7 @@ mongoose.set('strictQuery', true);
 const fileUpload = require('express-fileupload')
 
 cloudinary.config({
-    cloud_name: process.env.cloud_name,
+    cloud_name: process.env.cloud_Name,
     api_key: process.env.cloud_api_key,
     api_secret: process.env.cloud_api_secret,
 })
